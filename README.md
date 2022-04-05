@@ -20,10 +20,10 @@ Lista contém 6 exercícios para serem desenvolvidos em Python para a prática d
 
 [Exercício 2](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex2.py)
 
-[Exercício 3]()
+[Exercício 3](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex3.py)
 
 [Exercício 4](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex4.py)
 
-[Exercício 5]()
+[Exercício 5](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex5.py)
 
 [Exercício 6]()
