@@ -16,13 +16,13 @@ Lista contém 6 exercícios para serem desenvolvidos em Python para a prática d
 
 ## Exercícios
 
-[Exercício 1]()
+[Exercício 1](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex1.py)
 
-[Exercício 2]()
+[Exercício 2](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex2.py)
 
 [Exercício 3]()
 
-[Exercício 4]()
+[Exercício 4](https://github.com/enzocassemiro/estrutura-dados-ac1/blob/main/exercicios/ex4.py)
 
 [Exercício 5]()
 
