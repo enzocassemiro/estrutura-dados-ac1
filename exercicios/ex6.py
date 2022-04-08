@@ -1,16 +1,50 @@
 ################# ESCREVA SEU CÓDIGO AQUI  ###############################
 
-def buscaBinaria(lista, numBuscado):
-    first_index = -1
-    last_index = -1
+def buscaBinaria(lista, valorBusc, primeiroIndice=0, ultimoIndice=-1):
+     
+  # inicializa qual o último índice da lista
+    if ultimoIndice==-1:
+        ultimoIndice = len(lista)-1
+  
+  # obtem o indice do meio da lista
+    meio = int( (primeiroIndice+ultimoIndice)/2 )
+    tamanho = len(lista)
 
-    for index,i in enumerate(lista):
-        if i == numBuscado and first_index == -1:
-            first_index = index
-        if i == numBuscado and first_index!=-1:
-            last_index = index
+  # primeiro caso base da recursao
+    if lista[meio] == valorBusc:
+        j = 0
+        l = 0
 
-    return first_index, last_index
+        for i in range(meio,0,-1):
+            if lista[meio-j] == valorBusc:
+                primeiroIndice = meio-j
+                j+=1
+            else:
+                break
+            
+        for k in range(meio,tamanho):
+            if (lista[meio+l] == valorBusc):
+                ultimoIndice = meio + l
+                l += 1
+            else: 
+                break
+
+        return primeiroIndice, ultimoIndice
+  
+    elif primeiroIndice >= ultimoIndice:
+        primeiroIndice = - 1
+        ultimoIndice = - 1
+        return primeiroIndice, ultimoIndice
+
+    else:
+      
+        if valorBusc <= lista[meio]:
+            ultimoIndice = meio-1
+      
+        else:
+            primeiroIndice = meio+1
+
+    return buscaBinaria(lista, valorBusc, primeiroIndice, ultimoIndice)
 ##########################################################################
 
 # testando a função criada
