@@ -6,7 +6,7 @@ Lista de Exercicios de Estrutura de Dados
 Lista contém 6 exercícios para serem desenvolvidos em Python para a prática de conceitos:
 - Orientação a Objetos (OOP)
 - Ordenação (Sort)
-- Recustividade
+- Recusividade
 - Algoritmos
 
 ## 💻 Stack
