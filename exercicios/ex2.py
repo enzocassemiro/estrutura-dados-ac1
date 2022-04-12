@@ -1,7 +1,7 @@
 ################# ESCREVA SEU CÓDIGO AQUI  ###############################
 def retornaImpares(n, aux = 0, s = ''):
     aux = int(aux)
-    if aux==n:
+    if aux>n:
         return s
     
     else:
